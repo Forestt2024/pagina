@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Forest</title>
+    <link rel="icon" href="img/logo (4).png" type="image/x-icon">
+    <link id="theme" rel="stylesheet" href="estilo.css">
+    
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="">FOREST</a>
+                <button class="btn" id="modo"><i class="fa-solid fa-sun"></i></button>
+
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Forest</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Apartados</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">Temario</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">Demos</a></li>
+                    <li><a href="#Contactos" onclick="seleccionar()">Contactos</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <section class="site-title">
+            <div class="site-background" data-aos="fade-up" data-aos-delay="100">
+                <h3>Cultivando conocimientos</h3>
+                <h1>Cosechando sonrisas</h1>
+                <a href="#sobremi">
+                <button>Ver más</button>
+                </a>
+            </div>
+        </section>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Acerca de Forest...</h2>
+            <p>Forest es un juego educativo en Java ambientado en una granja encantadora donde los jugadores ayudan a animales con desafíos matemáticos y de lenguaje. Con gráficos coloridos y personajes adorables, los jugadores se sumergen en actividades educativas divertidas e interactivas que fortalecen habilidades clave mientras disfrutan de una experiencia de juego entretenida y divertida.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Características</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>INTERACTIVO</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MÚSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <span>ENRIQUECEDOR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-earth-americas"></i>
+                            <span>INCLUSIVO</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-language"></i>
+                            <span>BILINGUE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-face-laugh-wink"></i>
+                            <span>INCENTIVO</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <a  download>
+            <button>
+                Descargar trabajo escrito <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+            </a>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Apartados</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Mecánicas</h3>
+                    <div class="skill">
+                        <span>Lógica matemática</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>traducción al inglés</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Juego de palabras</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Comprensión auditiva</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Sistema de punteo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>43%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Soft Skills -->
+                <div class="col">
+                    <h3>Técnicas de aprendizaje</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Comprensión del tema</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proactividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Temários</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Asignaturas base</h3>
+                    <div class="item izq">
+                        <h4>Uso de sílabas</h4>
+                        <span class="casa">Completar palabas</span>
+                        <p>Los niños enfrentan desafíos de uso de sílabas, completando palabras o formando nuevas palabras a partir de sílabas dadas. Este tema fortalece la conciencia fonológica y la habilidad de segmentar y combinar sonidos en palabras.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Operaciones matemáticas</h4>
+                        <span class="casa">lógica matemática</span>
+                        <p>Mediante diversas actividades, los jugadores practican operaciones matemáticas básicas como suma y resta. Resuelven problemas relacionados con situaciones del campo, como contar animales o calcular la cantidad de alimento necesaria.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Uso de lógica</h4>
+                        <span class="casa">Críterio</span>
+
+                        <p>Los desafíos de lógica presentan situaciones que requieren pensamiento crítico y habilidades de resolución de problemas, como resolver acertijos basados en pistas.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Áreas adicionales</h3>
+                    <div class="item der">
+                        <h4>¿Por qué es necesario abordar estos temas?</h4>
+                        <span class="casa">Desarrollo cógnitivo</span>
+                        <p>Enseñar a los niños una introducción a la química a través de actividades lúdicas y relacionadas con la granja 
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Introducción a la química</h4>
+                        <p>Enseñar a los niños una introducción a la química a través de actividades lúdicas y relacionadas con la granja tiene múltiples beneficios. Los niños comienzan a comprender cómo funcionan los elementos básicos que los rodean en la naturaleza, como los diferentes estados de la materia. Esto no solo les brinda una comprensión básica de la ciencia, sino que también fomenta la curiosidad y el amor por el aprendizaje.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Modalidad en inglés</h4>
+                        <p>La familiarización con el idioma inglés desde una edad temprana es esencial en el mundo globalizado en el que vivimos. El inglés es el idioma más utilizado en el ámbito académico, profesional y tecnológico a nivel mundial. Al ofrecer la opción de traducción al inglés en el juego, "Forest" proporciona a los niños una exposición temprana al idioma de una manera divertida y contextualizada.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>DEMO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <a href="proyectos/calculadora/index.html" target="_blank">
+                        <img src="img/LOGO.png" alt="">
+                        <div class="overlay">
+                            <h3>Proyecto 1</h3>
+                            <p>Calculadora</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a href="" target="_blank">
+                    <img src="img/cuterelaxing on tumbler_.gif" alt="">
+                    <div class="overlay">
+                        <h3>Proyecto 2</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </a>
+                </div>
+                <div class="proyecto">
+                  <a href="" target="_blank">
+                    <img src="img/Media_240421_102315.gif" alt="">
+                    <div class="overlay">
+                        <h3>Proyecto 3</h3>
+                        <p>Fotografía</p>
+                    </div>
+                   </a>
+                </div>
+                <div class="proyecto">
+                    <a href="" target="_blank">
+                    <img src="img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Proyecto 4</h3>
+                        <p>Fotografía</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="proyecto">
+                    <a href="" target="_blank">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Proyecto 5</h3>
+                        <p>Fotografía</p>
+                    </div>
+                   </a>
+                </div>
+                <div class="proyecto">
+                    <a href="" target="_blank">
+                    <img src="img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Proyecto 6</h3>
+                        <p>Fotografía</p>
+                    </div>
+                   </a>
+                </div>
+            </div>
+        </div >
+    </section>
+
+    <!-- footer -->
+    <footer id="Contactos">
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://mail.google.com/mail/u/3/#inbox"><i class="fa-solid fa-at"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UClp7cwDrDGfBB7kM6Ao558w"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://github.com/Forestt2024"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
