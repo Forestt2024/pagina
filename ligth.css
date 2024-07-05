@@ -139,7 +139,7 @@ a{
   
 
 .inicio{
-    background:url(img/165 sin título_20240704174240.png);
+    background:url("img/165\ sin\ título_20240704174240.png");
     background-size: cover;
     height: 100vh;
 }
