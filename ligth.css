@@ -654,5 +654,13 @@ footer .arriba{
     .contacto .fila .col{
         width: 100%;
     }
+
+    .site-title .site-background{
+        font-size: 20px;
+    }
+
+    .site-title button{
+            margin-left: 100px;
+    }
 }
 
